@@ -7,8 +7,6 @@ yes | sudo git config --global user.name "kyomukyomupurin"
 yes | sudo git config --global user.email murakami1728@gmail.com
 yes | sudo apt install build-essential
 yes | sudo apt install proj-bin libproj-dev libgeos-dev python3-pip python3-tk
-yes | sudo curl https://sh.rustup.rs -sSf | sh
-yes | sudo export PATH="$HOME/.cargo/bin:$PATH"
 yes | sudo pip3 install numpy 
 yes | sudo pip3 install scipy
 yes | sudo pip3 install pandas
