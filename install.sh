@@ -19,3 +19,4 @@ yes | sudo pip3 install seaborn
 yes | sudo pip3 install jupyter
 yes | sudo pip3 install jupyterlab
 yes | sudo pip3 uninstall shapely && sudo pip3 install --no-binary :all: shapely
+yes | sudo apt autoremove
