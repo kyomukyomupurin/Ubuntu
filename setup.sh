@@ -37,4 +37,4 @@ yes | sudo apt autoremove
 echo "cdls(){
     \\cd \"\$@\" && ls
 }
-alias cd=\"cdls\"" >> test.md
+alias cd=\"cdls\"" >> ~/.bashrc
