@@ -38,3 +38,6 @@ echo "cdls(){
     \\cd \"\$@\" && ls
 }
 alias cd=\"cdls\"" >> ~/.bashrc
+
+# count file number
+echo "alias number="ls -U1 | wc -l"" >> ~/.bashrc
