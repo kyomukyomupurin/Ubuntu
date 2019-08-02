@@ -10,10 +10,6 @@ yes | sudo apt install git curl tree build-essential
 # install c++ tools
 yes | sudo apt install build-essential
 
-# git setting
-yes | sudo git config --global user.name "kyomukyomupurin"
-yes | sudo git config --global user.email murakami1728@gmail.com
-
 # install Python3
 yes | sudo apt install python3-pip python3-tk
 
@@ -34,5 +30,11 @@ yes | sudo pip3 install jupyter
 yes | sudo pip3 install jupyterlab
 yes | sudo pip3 uninstall shapely && sudo pip3 install --no-binary :all: shapely
 
-# clean
+# clean up
 yes | sudo apt autoremove
+
+# cd & ls
+echo "cdls(){
+    \\cd \"\$@\" && ls
+}
+alias cd=\"cdls\"" >> test.md
