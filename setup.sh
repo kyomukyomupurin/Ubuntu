@@ -5,7 +5,7 @@ yes | sudo apt update
 yes | sudo apt upgrade
 
 # install basic commands
-yes | sudo apt install git curl tree build-essential
+yes | sudo apt install git curl tree
 
 # install c++ tools
 yes | sudo apt install build-essential
@@ -34,10 +34,14 @@ yes | sudo pip3 uninstall shapely && sudo pip3 install --no-binary :all: shapely
 yes | sudo apt autoremove
 
 # cd & ls
-echo "cdls(){
+echo "
+# cd & ls
+cdls(){
     \\cd \"\$@\" && ls
 }
 alias cd=\"cdls\"" >> ~/.bashrc
 
 # count file number
-echo "alias number="ls -U1 | wc -l"" >> ~/.bashrc
+echo "
+# count file number
+alias number="ls -U1 | wc -l"" >> ~/.bashrc
