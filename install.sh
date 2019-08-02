@@ -15,7 +15,7 @@ yes | sudo git config --global user.name "kyomukyomupurin"
 yes | sudo git config --global user.email murakami1728@gmail.com
 
 # install Python3
-yes | sudo apt install proj-bin libproj-dev libgeos-dev python3-pip python3-tk
+yes | sudo apt install python3-pip python3-tk
 
 # for cartopy
 yes | sudo apt install proj-bin libproj-dev libgeos-dev
