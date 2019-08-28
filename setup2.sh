@@ -2,7 +2,10 @@
 
 # git setting
 git config --global user.name "kyomukyomupurin"
-git config --global user.email murakami1728@gmail.com
+git config --global user.email "murakami1728@gmail.com"
+
+# generate ssh key
+ssh-keygen -t rsa -b 4096 -C "murakami1728@gmail.com"
 
 # install rust
 curl https://sh.rustup.rs -sSf | sh
